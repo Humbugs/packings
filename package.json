@@ -1,0 +1,26 @@
+{
+  "name": "humbugs-packings",
+  "main": "./src/JekyllStorePackings.js",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/humbugs/packings.git"
+  },
+  "dependencies": {
+    "reflux": "^0.2.7",
+    "seamless-immutable": "^2.3.2",
+    "superagent": "^1.1.0"
+  },
+  "devDependencies": {
+    "chai": "^2.1.2",
+    "mocha": "^2.2.1",
+    "sinon": "^1.14.1"
+  },
+  "peerDependencies": {
+    "jekyll-store-engine": ">=0.2.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Max White"
+}
